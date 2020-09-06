@@ -6,7 +6,7 @@
     <div class="row">
         <div class="col-md-6">
             <asp:Label runat="server" Text="Enter a Category ID:"></asp:Label>&nbsp;&nbsp;
-            <asp:TextBox id="IDArg" runat="server"></asp:TextBox>&nbsp;&nbsp;
+            <asp:TextBox id="IDArg" runat="server" AutoPostBack="true"></asp:TextBox>&nbsp;&nbsp;
             <asp:Button id="Fetch" runat="server" Text="Fetch" OnClick="Fetch_Click" />
             <asp:Label id="MessageLabel" runat="server"></asp:Label>
         </div>

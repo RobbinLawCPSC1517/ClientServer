@@ -44,6 +44,7 @@ namespace WebApp.Pages
                         }
                         else
                         {
+                            MessageLabel.Text = "";
                             ID.Text = info.CategoryID.ToString();
                             Name.Text = info.CategoryName;
                         }
